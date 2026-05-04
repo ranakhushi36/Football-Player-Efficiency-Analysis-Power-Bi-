@@ -1,29 +1,144 @@
-# Football Player Efficiency Analysis (Power BI + A/B Testing)
-Analyzing goal-scoring efficiency of top football players using data-driven methods to compare performance across player groups.
-## Problem Statement
-Traditional football stats focus on total goals, but fail to capture efficiency.
+# Football Player Efficiency Analysis (Power BI)
 
-This project answers:
-- Which players are more efficient goal scorers?
-- Does more playtime (appearances) actually translate to better performance?
-- How do different player groups compare using A/B testing?
+## Project Overview
 
-## Approach
-1. Web scraped player data (goals, appearances)
-2. Cleaned and transformed data using Power Query
-3. Created calculated metrics (Goals per Game ratio)
-4. Performed A/B testing on player groups
-5. Built interactive dashboard using Power BI
+Most football analysis focuses on **total goals scored**.
+This project challenges that assumption.
 
-## Key Insights
-- Group A players have higher goal efficiency (0.51) compared to Group B (0.34)
-- Despite higher total goals, Group B underperforms in efficiency
-- Weak negative correlation between appearances and goals per game
+Instead of asking:
 
-## Dashboard Preview
+> “Who scored the most goals?”
 
-![Dashboard Overview](assets/dashboard1.png)
-![Player Comparison](assets/dashboard2.png)
+This project asks:
 
-## Why this matters in Real World Football Analytics
-This type of analysis can help scouts identify undervalued players and support data-driven decision-making in team selection.
+> **“Who is actually more efficient at scoring?”**
+
+Using historical player data, this analysis compares performance across groups to uncover **hidden inefficiencies and misleading metrics**.
+
+---
+
+## Objective
+
+The goal of this project is to:
+
+* Evaluate player performance using **goals per game (efficiency)**
+* Compare two player groups (A vs B)
+* Identify whether **higher output actually means better performance**
+* Demonstrate how **raw totals can mislead decision-making**
+
+---
+
+## Key Insight
+
+Group B players have **higher total goals**, but:
+
+They are **less efficient** than Group A
+
+* **Group A Efficiency:** 0.51 goals/game
+* **Group B Efficiency:** 0.34 goals/game
+
+This reveals a critical insight:
+
+> **More output ≠ Better performance**
+
+---
+
+## Visual Analysis
+
+### 1. Efficiency Comparison
+
+![Efficiency Analysis](assets/efficiency.png)
+
+* Clear performance gap between groups
+* Group A consistently outperforms in efficiency
+* Highlights why averages alone can be misleading
+
+---
+
+### 2. Appearances vs Goals per Game
+
+![Scatter Plot](assets/scatter.png)
+
+* Shows relationship between experience (appearances) and scoring rate
+* Slight downward trend suggests:
+
+  * Efficiency may decrease with more matches
+  * Role, fatigue, or team dynamics may impact performance
+
+---
+
+## Key Learnings
+
+* **Raw metrics can be deceptive**
+  Total goals do not reflect true performance quality
+
+* **Efficiency metrics are more meaningful**
+  Goals per game provides a normalized comparison
+
+* **More data ≠ better insights**
+  Without the right metric, analysis becomes misleading
+
+* **Data storytelling matters**
+  The same dataset can lead to completely different conclusions
+
+---
+
+## Tools & Technologies
+
+* **Power BI** – Dashboard creation & visualization
+* **Data Cleaning** – Structured player dataset
+* **Basic Statistical Analysis** – Ratio metrics, comparisons
+
+---
+
+## Project Structure
+
+```
+Football-Player-Efficiency-Analysis/
+│
+├── Assets/                # Images used in README
+├── Dataset/               # Raw data
+├── Power BI File/         # .pbix dashboard
+├── Insights/              # Key findings
+└── README.md
+```
+
+---
+
+## How to Use
+
+1. Download the Power BI file from the repository
+2. Open it using Power BI Desktop
+3. Explore:
+
+   * Player-level metrics
+   * Group comparisons
+   * Interactive filters
+
+---
+
+## Conclusion
+
+This project demonstrates that:
+
+> **Performance should not be measured by volume alone, but by efficiency.**
+
+By shifting focus from totals to ratios, we uncover **more accurate and meaningful insights**.
+
+---
+
+## Future Improvements
+
+* Add advanced metrics (xG, assists, contribution index)
+* Perform clustering of player types
+* Build predictive models for player performance
+* Expand dataset across leagues and seasons
+
+---
+
+## Author
+
+**Khushi Rana**
+Aspiring Data Analyst / AI Engineer
+
+---
