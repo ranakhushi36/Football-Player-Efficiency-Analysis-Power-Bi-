@@ -15,8 +15,6 @@ This project asks:
 
 Using historical player data, this analysis compares performance across groups to uncover **hidden inefficiencies and misleading metrics**.
 
----
-
 ## Objective
 
 The goal of this project is to:
@@ -25,8 +23,6 @@ The goal of this project is to:
 * Compare two player groups (A vs B)
 * Identify whether **higher output actually means better performance**
 * Demonstrate how **raw totals can mislead decision-making**
-
----
 
 ## Key Insight
 
@@ -41,8 +37,6 @@ This reveals a critical insight:
 
 > **More output ≠ Better performance**
 
----
-
 ## Visual Analysis
 
 ### 1. Efficiency Comparison
@@ -53,8 +47,6 @@ This reveals a critical insight:
 * Group A consistently outperforms in efficiency
 * Highlights why averages alone can be misleading
 
----
-
 ### 2. Appearances vs Goals per Game
 
 ![Scatter Plot](Assets/scatter.png)
@@ -64,8 +56,6 @@ This reveals a critical insight:
 
   * Efficiency may decrease with more matches
   * Role, fatigue, or team dynamics may impact performance
-
----
 
 ## Key Learnings
 
@@ -81,15 +71,11 @@ This reveals a critical insight:
 * **Data storytelling matters**
   The same dataset can lead to completely different conclusions
 
----
-
 ## Tools & Technologies
 
 * **Power BI** – Dashboard creation & visualization
 * **Data Cleaning** – Structured player dataset
 * **Basic Statistical Analysis** – Ratio metrics, comparisons
-
----
 
 ## Project Structure
 
@@ -103,8 +89,6 @@ Football-Player-Efficiency-Analysis/
 └── README.md
 ```
 
----
-
 ## How to Use
 
 1. Download the Power BI file from the repository
@@ -115,8 +99,6 @@ Football-Player-Efficiency-Analysis/
    * Group comparisons
    * Interactive filters
 
----
-
 ## Conclusion
 
 This project demonstrates that:
@@ -125,8 +107,6 @@ This project demonstrates that:
 
 By shifting focus from totals to ratios, we uncover **more accurate and meaningful insights**.
 
----
-
 ## Future Improvements
 
 * Add advanced metrics (xG, assists, contribution index)
@@ -134,11 +114,8 @@ By shifting focus from totals to ratios, we uncover **more accurate and meaningf
 * Build predictive models for player performance
 * Expand dataset across leagues and seasons
 
----
-
 ## Author
 
 **Khushi Rana**
 Aspiring Data Analyst / AI Engineer
 
----
