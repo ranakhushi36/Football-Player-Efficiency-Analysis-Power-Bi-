@@ -47,7 +47,7 @@ This reveals a critical insight:
 
 ### 1. Efficiency Comparison
 
-![Efficiency Analysis](assets/efficiency.png)
+![Efficiency Analysis](Assets/efficiency.png)
 
 * Clear performance gap between groups
 * Group A consistently outperforms in efficiency
@@ -57,7 +57,7 @@ This reveals a critical insight:
 
 ### 2. Appearances vs Goals per Game
 
-![Scatter Plot](assets/scatter.png)
+![Scatter Plot](Assets/scatter.png)
 
 * Shows relationship between experience (appearances) and scoring rate
 * Slight downward trend suggests:
