@@ -83,8 +83,8 @@ This reveals a critical insight:
 Football-Player-Efficiency-Analysis/
 │
 ├── Assets/                # Images used in README
-├── Datasource/               # Raw data
-├── Power BI File/         # .pbix dashboard
+├── Power BI File/         # pbix dashboard
+├── Data Source/           # raw data
 ├── Insights/              # Key findings
 └── README.md
 ```
